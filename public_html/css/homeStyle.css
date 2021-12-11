@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Futura_PT_Medium';
+    src: url(font/FuturaPT/FuturaPT-Medium.eot) format("embedded-opentype"),
+    url(font/FuturaPT/FuturaPT-Medium.ttf) format("truetype"),
+    url(font/FuturaPT/FuturaPT-Medium.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'NexonLv2Gothic_Medium';
+    src: url(font/NexonLv2Gothic/NEXON-Lv2-Gothic-Medium.ttf) format("truetype"),
+    url(font/NexonLv2Gothic/NEXON-Lv2-Gothic-Medium.woff) format("woff");
+}
+
+html::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+#bodyContainer{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+
+
+/* detail info */
+#infoContainer{
+    position: relative;
+    top: -815px;
+    right: 588px;
+}
+
+
+
+#title{
+    font-family: 'Futura_PT_Medium';
+    margin: 0;
+    font-size: 23pt;
+    color: #EE8118;
+}
+
+#shapeImg{
+    height: 20px;
+}
+
+#detail{
+    font-family: 'NexonLv2Gothic_Medium';
+    font-size: 12pt;
+    line-height: 18pt;
+    padding: 20px;
+    border: 2pt solid #EE8118;
+    background-color: white;
+}

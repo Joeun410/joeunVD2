@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    border: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 270px 1fr ;
+    
+}
+
+.img3{
+    /* cursor:pointer; */
+    width:600px;
+    
+}
+
+.video{
+    /* cursor:pointer; */
+    width:600px;
+    
+}
+
+.sideBar{
+    margin: 20px;
+    width:500px;
+}
+
+.arrowImg{
+    margin: 10px;
+    width:100px;
+}
+
+.sideBarContainer{
+    
+    margin: 0%;
+   border-right:  solid 1pt black;
+
+   
+}

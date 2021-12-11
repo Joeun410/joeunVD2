@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'NexonLv2Gothic_Medium';
+    src: url(font/NexonLv2Gothic/NEXON-Lv2-Gothic-Medium.ttf) format("truetype"),
+    url(font/NexonLv2Gothic/NEXON-Lv2-Gothic-Medium.woff) format("woff");
+}
+
+body, html {
+    margin: 0;
+    border: none;
+}
+
+nav {
+    margin: 0;
+   
+    top: 0;
+    /* position: sticky; */
+    background-color: white;
+    /* z-index: 100; */
+
+
+}
+
+.navContainer{
+   height:47.8px;
+   background: linear-gradient(0.25turn, #b9b9ff, #ebf8e1, #ffa09f,#4af2fe,#FAEA4F);
+   border: solid 1pt black;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+#aboutTxt{
+    padding: 14px;
+}
+
+#img{
+margin: 3.5px;
+    width:180px; 
+}
+
+#img2{
+    margin: 3.5px;
+        width:180px; 
+    }
+
+.video{
+    /* cursor:pointer; */
+     cursor:url(../img/deco\ ver.png) 16 16, auto; 
+    width:600px;
+   
+   
+}
+
