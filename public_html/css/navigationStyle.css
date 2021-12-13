@@ -4,6 +4,13 @@
     url(font/NexonLv2Gothic/NEXON-Lv2-Gothic-Medium.woff) format("woff");
 }
 
+@font-face {
+    font-family: 'D-DINCondensed-Bold';
+    src: 
+    url(/public_html/css/font/FontsFree-Net-D-DINCondensed-Bold.ttf) format("truetype"),
+    
+}
+
 body, html {
     margin: 0;
     border: none;
@@ -11,23 +18,32 @@ body, html {
 
 nav {
     margin: 0;
-   
     top: 0;
-    /* position: sticky; */
+     position: sticky; 
     background-color: white;
-    /* z-index: 100; */
-
-
+    z-index: 100;
 }
 
 .navContainer{
    height:47.8px;
+   position: sticky;
    background: linear-gradient(0.25turn, #b9b9ff, #ebf8e1, #ffa09f,#4af2fe,#FAEA4F);
    border: solid 1pt black;
    display: flex;
    justify-content: space-between;
+/* z-index: 1000; */
    
 }
+
+#title{
+    font-family: 'D-DINCondensed-Bold';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 45px;
+    color: black;
+    }
+
 
 #aboutTxt{
     padding: 14px;
@@ -43,11 +59,7 @@ margin: 3.5px;
         width:180px; 
     }
 
-.video{
-    /* cursor:pointer; */
-     cursor:url(../img/deco\ ver.png) 16 16, auto; 
-    width:600px;
-   
-   
-}
+
+
+
 

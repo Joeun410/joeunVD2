@@ -10,47 +10,81 @@
     src: url(font/NexonLv2Gothic/NEXON-Lv2-Gothic-Medium.ttf) format("truetype"),
     url(font/NexonLv2Gothic/NEXON-Lv2-Gothic-Medium.woff) format("woff");
 }
-
-html::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera*/
+@font-face {
+    font-family: 'D-DINCondensed-Bold';
+    src: 
+    url(/public_html/css/font/FontsFree-Net-D-DINCondensed-Bold.ttf) format("truetype"),
+    
 }
 
-#bodyContainer{
-    display: flex;
+html, body{
+    height: 100%;
+}
+
+#object{
+    
+    position: absolute;
+    width: 800px;
+
+    left: -200px;
+    top: 100px;  
+}
+#eye{
+    /* cursor:pointer; */
+     cursor:url(../img/deco\ ver.png) 16 16, auto; 
+     position: absolute;
+    width: 800px;
+
+    left: 700px;
+    top: 80px;  
+}
+
+#joaa{
+    /* cursor:pointer; */
+     cursor:url(../img/deco\ ver.png) 16 16, auto; 
+     position: absolute;
+    width: 850px;
+
+    left: 30px;
+    top: 450px;  
+}
+#pattern{
+    /* cursor:pointer; */
+     cursor:url(../img/deco\ ver.png) 16 16, auto; 
+     position: absolute;
+    width: 700px;
+
+    left: 360px;
+    top: 100px;   
+}
+
+#sandwich{
+    /* cursor:pointer; */
+     cursor:url(../img/deco\ ver.png) 16 16, auto; 
+     position: absolute;
+    width: 750px;
+
+    left: 550px;
+    top: 450px;  
+}
+
+
+/* 
+#mainContainer{
     height: 100vh;
-    justify-content: center;
-    align-items: center;
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
 }
 
+#upContainer{
+    display: flex;
+    justify-content: space-between;
 
-
-/* detail info */
-#infoContainer{
-    position: relative;
-    top: -815px;
-    right: 588px;
 }
 
+#downContainer{
+    display: flex;
+    justify-content: space-evenly;
 
-
-#title{
-    font-family: 'Futura_PT_Medium';
-    margin: 0;
-    font-size: 23pt;
-    color: #EE8118;
-}
-
-#shapeImg{
-    height: 20px;
-}
-
-#detail{
-    font-family: 'NexonLv2Gothic_Medium';
-    font-size: 12pt;
-    line-height: 18pt;
-    padding: 20px;
-    border: 2pt solid #EE8118;
-    background-color: white;
-}
+} */

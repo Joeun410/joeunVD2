@@ -1,0 +1,682 @@
+
+
+@font-face {
+    font-family: 'NexonLv2Gothic_Medium';
+    src: url(../css/font/NexonLv2Gothic/NEXON-Lv2-Gothic-Medium.ttf) format("truetype"),
+    url(../css/font/NexonLv2Gothic/NEXON-Lv2-Gothic-Medium.woff) format("woff");
+}
+@font-face {
+    font-family: 'NexonLv2Gothic_Bold';
+    src: url(../css/font/NexonLv2Gothic/NEXON\ Lv2\ Gothic\ Bold.ttf) format("truetype"),
+    url(../css/font/NexonLv2Gothic/NEXON\ Lv2\ Gothic\ Bold.woff) format("woff");
+}
+@font-face {
+    font-family: 'NexonLv2Gothic_Regular';
+    src: url(../css/font/NexonLv2Gothic/NEXON-Lv2-Gothic.ttf) format("truetype"),
+    url(../css/font/NexonLv2Gothic/NEXON-Lv2-Gothic.woff) format("woff");
+}
+@font-face {
+    font-family: 'D-DINCondensed-Bold';
+    src: 
+    url(/public_html/css/font/FontsFree-Net-D-DINCondensed-Bold.ttf) format("truetype"),
+    
+}
+/* Contact */
+.contact{
+    position: absolute;
+    width: 690px;
+    height: 35px;
+    /* right: 0px; */
+    top: 308px;
+    left: 50.71%;
+    right: 43.43%;
+    /* top: 7.93%; */
+    /* bottom: 91.17%; */
+    
+    font-family: 'NexonLv2Gothic_Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+
+body, html {
+    margin: 0;
+    border: none;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 270px 1fr ;
+    background-color: rgb(255, 255, 255);
+}
+.sideBar{
+    margin: 20px;
+    width:500px;
+}
+
+.arrowImg{
+    cursor: pointer;
+    position: fixed;
+    top: 50px;
+    margin: 10px;
+    width:150px;
+    
+    
+}
+
+.sideBarContainer{
+    position: sticky;
+    margin: 0%;
+   border-right:  solid 1pt black;  
+}
+
+/* 조은웹_패턴 */
+.detail
+{position: relative;
+    width: 100%;
+    padding-bottom: 802.78%;
+
+/* height: 11239px; */
+
+background: #FFFFFF;}
+
+
+/* Line 5 */
+.line{
+    position: absolute;
+    left: 2.86%;
+    right: 2.86%;
+    top: 4.42%;
+    bottom: 96.58%;
+
+border: 1px solid #000000;
+}
+
+
+
+
+/* PATTERN */
+.projectName
+{position: absolute;
+width: 192px;
+height: 72px;
+left: 40px;
+top: 120px;
+
+font-family: D-DINCondensed-Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 66px;
+line-height: 72px;
+/* identical to box height */
+
+color: #000000;}
+
+
+
+/* Category */ 
+.category
+{position: absolute;
+width: 113px;
+height: 23px;
+left: 41px;
+top: 307px;
+
+font-family: NexonLv2Gothic_Medium;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+color: #000000;
+}
+
+
+/* 나를 설명하는 문장 5개를 주제로 작업한 패턴포스터. */
+
+.explain
+{position: absolute;
+width: 555px;
+height: 26px;
+left: 40px;
+top: 438px;
+
+font-family: NexonLv2Gothic_Medium;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+color: #000000;
+}
+
+
+/* Pattern poster with five sentences explaining me. */
+
+.explain
+{position: absolute;
+width: 555px;
+height: 26px;
+left: 693px;
+top: 438px;
+
+font-family: NexonLv2Gothic_Medium;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+color: #000000;}
+
+
+
+/* Project */
+.project
+{position: absolute;
+width: 90px;
+height: 23px;
+left: 41px;
+top: 281px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+color: #000000;}
+
+
+
+/* Contact */
+.contact
+{position: absolute;
+width: 82px;
+height: 35px;
+left: 793px;
+top: 310px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;}
+
+
+
+/* @jo__an_ne__ */
+.instagramID
+{position: absolute;
+width: 324px;
+height: 23px;
+left: 960px;
+top: 309px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+color: #000000;}
+
+
+
+/* Designer */
+.designer
+{position: absolute;
+width: 91px;
+height: 35px;
+left: 793px;
+top: 283px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;}
+
+
+
+/* Self Identity */
+.categoryTxt
+{position: absolute;
+width: 280px;
+height: 23px;
+left: 207px;
+top: 283px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+color: #000000;}
+
+
+
+/* 김조은 */
+.studentName
+{position: absolute;
+width: 289px;
+height: 23px;
+left: 960px;
+top: 283px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+color: #000000;}
+
+
+
+/* Self Identity-> Pattern-> Self Branding-> Group Branding */
+.projectName
+{position: absolute;
+width: 532px;
+height: 23px;
+left: 208px;
+top: 309px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+color: #000000;}
+
+
+
+/* 1. 느슨한 성실함 2. 미룰 수 있을 때까지 최선을 다해 미뤄버리기 3. 길쭉 흐느적 4. 투명한 물에 비치는 파아란 하늘과 떠다니는 유리구슬 5. 객관논리경험계획 6. 불분명한 것들이 분명할 수 있다면 7. 좋은조은 8. 잔잔하게 날카로운 9. 작은 순간도 아름답게 10. 무엇이든 만듭니다 11. 너한테 맡기느니 내가 한다 12. 치즈는 싫어하는데 피자는 좋아하고 회는 싫어하지만 초밥은 좋아하는 생각정리는 좋아하지만 책상정리는 안하는 13. 가끔 뜬금포 14. 홈 스위트 홈 15. 온전한 나만의 시간 16. 뭐든 일단 하자 17. 차분한 듯 안 차분한 18. 나는 내가 제일 소중해 19. 작은 것들이 사실 정말 큰 것일지도 20. 이상한 정원 */
+#ex1
+{
+position: absolute;
+width: 464px;
+height: 611px;
+left: 46px;
+top: 634px;
+
+font-family: NexonLv2Gothic_Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+color: #000000;
+}
+
+
+
+/* 1 */
+
+.img1 
+{position: absolute;
+height: 668px;
+width: 642px;
+left: 25.36%;
+right: 26.29%;
+top: 1279px;
+
+background: url(../img/Pattern/1.png);}
+
+
+/* 2 */
+.img2
+{position: absolute;
+height: 740px;
+left: 2.86%;
+right: 2.86%;
+top: 2118px;
+
+background: url(../img/Pattern/2.png);}
+
+
+/* <Main Module> */
+#ex2
+{position: absolute;
+width: 250px;
+height: 45px;
+left: 638px;
+top: 2010px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+color: #000000;}
+
+
+
+/* <PATTERN_1> */
+#ex3
+{position: absolute;
+width: 250px;
+height: 45px;
+left: 638px;
+top: 2913px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+color: #000000;}
+
+
+/* 6 */
+.img3
+{
+position: absolute;
+height: 920px;
+left: 2.86%;
+right: 50.71%;
+top: 5242px;
+
+background: url(../img/Pattern/6.png);
+}
+
+/* 5 */
+.img4
+{
+position: absolute;
+height: 740px;
+left: 2.86%;
+right: 2.93%;
+top: 4482px;
+
+background: url(../img/Pattern/4.png);}
+
+
+/* 4 */
+.img5
+{
+    position: absolute;
+height: 740px;
+left: 2.86%;
+right: 2.93%;
+top: 3723px;
+
+background: url(../img/Pattern/4.png);}
+
+
+/* 3 */
+.img6
+{
+position: absolute;
+height: 757px;
+left: 5.5%;
+right: 0%;
+top: 2958px;
+
+background: url(../img/Pattern/3.png);}
+
+/* 관련 문장 -미룰 수 있을 때까지 최선을 다해 미뤄버리기 -객관논리경험계획 */
+#ex4
+{position: absolute;
+width: 325px;
+height: 110px;
+left: 753px;
+top: 5392px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+color: #000000;}
+
+
+
+/* <PATTERN_2> */
+#ex5
+{
+ position: absolute;
+width: 250px;
+height: 45px;
+left: 744px;
+top: 5327px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+color: #000000;}
+
+
+
+/* 7 */
+.img7
+{position: absolute;
+height: 456px;
+left: 74.07%;
+right: 2.93%;
+top: 5706px;
+
+background: url(../img/Pattern/7.png);}
+
+
+/* 8 */
+.img7
+{
+position: absolute;
+height: 85px;
+left: 50.93%;
+right: 27.57%;
+top: 6100px;
+
+background: url(../img/Pattern/8.png);}
+
+
+/* <사용모듈> */
+#ex6
+{position: absolute;
+width: 250px;
+height: 45px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+color: #000000;}
+
+/* 불분명명한 것들이 분명했으면 */
+#ex7
+{position: absolute;
+width: 736px;
+height: 46px;
+left: 332px;
+top: 7739px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+text-align: center;
+
+color: #000000;}
+
+
+
+/* 사소한 것도 아름답게 */
+#ex8
+{position: absolute;
+width: 736px;
+height: 46px;
+left: 332px;
+top: 8751px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+text-align: center;
+
+color: #000000;}
+
+
+
+/* 작은 것들이 사실 정말 큰 것일지도 */
+
+#ex9
+{position: absolute;
+width: 736px;
+height: 46px;
+left: 332px;
+top: 11112px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+text-align: center;
+
+color: #000000;
+}
+
+
+/* <PATTERN_3> */
+#ex10
+{position: absolute;
+width: 250px;
+height: 45px;
+left: 638px;
+top: 7701px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+color: #000000;}
+
+
+
+/* <PATTERN_4> */
+#ex11
+{position: absolute;
+width: 250px;
+height: 45px;
+left: 643px;
+top: 8706px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+color: #000000;}
+
+
+
+/* <PATTERN_5> */
+
+position: absolute;
+width: 250px;
+height: 45px;
+left: 643px;
+top: 11067px;
+
+font-family: NEXON Lv2 Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+color: #000000;
+
+
+
+/* 9 */
+
+position: absolute;
+height: 1278px;
+left: 19.21%;
+right: 16.43%;
+top: 6355px;
+
+background: url(스크린샷 2021-12-02 오전 1.08.png);
+opacity: 0.9;
+
+
+/* 7 */
+
+position: absolute;
+height: 456px;
+left: 74.07%;
+right: 2.93%;
+top: 5706px;
+
+background: url(스크린샷 2021-12-06 오전 4.35.png);
+
+
+/* 10 */
+
+position: absolute;
+height: 741px;
+left: 2.86%;
+right: 2.86%;
+top: 7927px;
+
+background: url(스크린샷 2021-12-02 오전 1.09.png);
+
+
+/* 11 */
+
+position: absolute;
+height: 1323px;
+left: 97%;
+right: -145%;
+top: 8938px;
+
+background: url(스크린샷 2021-12-02 오전 1.09.png);
+transform: rotate(90deg);
+
+

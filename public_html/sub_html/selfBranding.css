@@ -8,33 +8,44 @@ body, html {
     grid-template-columns: 270px 1fr ;
     
 }
-
-.img3{
-    /* cursor:pointer; */
-    width:600px;
-    
-}
-
-.video{
-    /* cursor:pointer; */
-    width:600px;
-    
-}
-
 .sideBar{
     margin: 20px;
     width:500px;
 }
 
 .arrowImg{
+    cursor: pointer;
+    position: fixed;
+    top: 50px;
     margin: 10px;
-    width:100px;
+    width:150px;
+    
+    
 }
 
 .sideBarContainer{
-    
+    position: sticky;
     margin: 0%;
-   border-right:  solid 1pt black;
-
-   
+   border-right:  solid 1pt black;  
 }
+
+
+
+#img3{
+    /* cursor:pointer; */
+    margin: 30px;
+width: 1200px;
+left: 60px;
+top: 652px;
+}
+#img4{
+    
+    margin: 30px;
+    width: 1000px;   
+}
+#img5{
+    
+    margin: 30px;
+    width: 800px;   
+}
+
